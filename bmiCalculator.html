@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BMI Calculator</title>
+    <style>
+        .container{
+            width: 500px;
+            height: 500px;
+            background-color: hotpink;
+            border: 1px solid indigo;
+            position: relative;
+            top: 100px;
+            left: 400px;
+        }
+        #buttonValue{
+            position: relative;
+            left: 10px;
+            top: 20px;
+            width: 420px;
+            height: 30px;
+            text-transform: uppercase;
+            color: blue;
+            background-color: green;
+            font-size: larger;
+        }
+        .boxInput{
+            width: 300px;
+            position: relative;
+            left: 10px;
+            height: 18px;
+        }
+        
+    </style>
+</head>
+<body>
+    <div class="container">
+    <h2><center>BMI Calculator</center></h2>
+    <h3>Enter the Age</h3>
+    <input type="number" class="boxInput">
+    <h3>Enter height in meter</h3>
+    <input type="number" class="boxInput">
+    <h3>Enter weight in Kg</h3>
+    <input type="number" class="boxInput">
+    <br>
+    <button id="buttonValue">Calculate</button>
+    <br>
+    <br>
+    <h3>Your BMI is:    </h3>
+    <input type="number" class="boxInput">
+    </div>
+</body>
+</html>
